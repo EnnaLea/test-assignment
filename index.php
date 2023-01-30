@@ -75,12 +75,14 @@
 <main>
 
   <section class="py-5 text-center container ">
-    <div class="row py-lg-5 ">
-      <div class=" heading col-lg-6 col-md-8 mx-auto ">
-        <span><h1 class="header fw-light">Product List</h1></span>
-        <span><a href="add_product.php" id="" class="btn btn-primary my-2">ADD</a></span>
-        <span><a href="#" id="delete-product-btn" class="btn btn-secondary my-2">MASS DELETE</a></span>
-        </p>
+    <div class="heading row py-lg-5 ">
+      <div class="row ">
+      <div class="header col-lg">
+        <span class="product col"><h1 class=" fw-light">Product List</h1></span>
+        <span class="product-buttons col"><a href="add_product.php"  class=" btn btn-primary my-2">ADD</a>
+        <a href="#" id="delete-product-btn" class="btn btn-secondary my-2">MASS DELETE</a></span>
+      </div>
+
       </div>
     </div>
   </section>
