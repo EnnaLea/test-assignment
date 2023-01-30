@@ -48,3 +48,21 @@
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 }
+
+
+section {
+    display: flex;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    padding: 2rem;
+}
+
+.col {
+    margin-top: 3rem;
+}
