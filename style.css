@@ -63,6 +63,14 @@ section {
     padding: 2rem;
 }
 
+
 .col {
-    margin-top: 3rem;
+    margin-top: 4rem;
+    width: 25%;
+}
+
+.card {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 4rem;
 }

@@ -77,22 +77,22 @@
   <section class="py-5 text-center container ">
     <div class="row py-lg-5 ">
       <div class=" heading col-lg-6 col-md-8 mx-auto ">
-        <h1 class="header fw-light">Product List</h1>
-          <a href="add_product.php" class="btn btn-primary my-2">ADD</a>
-          <a href="#" class="btn btn-secondary my-2">MASS DELETE</a>
+        <span><h1 class="header fw-light">Product List</h1></span>
+        <span><a href="add_product.php" id="" class="btn btn-primary my-2">ADD</a></span>
+        <span><a href="#" id="delete-product-btn" class="btn btn-secondary my-2">MASS DELETE</a></span>
         </p>
       </div>
     </div>
   </section>
 
   <div class="album py-5 bg-light">
-    <div class="container">
+    <div class="container-fluid">
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 d-flex">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 d-flex">
 
         <div class="col">
 
-              <div class="card" style="width: 20rem; height: 20rem;">
+              <div class="card">
                 <div class="card-body">
                   <input type="checkbox">
                   <div class="items text-center ">
@@ -106,7 +106,7 @@
         </div>
         <div class="col">
 
-              <div class="card" style="width: 20rem; height: 20rem;">
+              <div class="card">
                 <div class="card-body">
                   <input type="checkbox">
                   <div class="items text-center ">
@@ -120,7 +120,7 @@
         </div>
         <div class="col">
 
-              <div class="card" style="width: 20rem; height: 20rem;">
+              <div class="card">
                 <div class="card-body">
                   <input type="checkbox">
                   <div class="items text-center ">
@@ -134,7 +134,7 @@
         </div>
         <div class="col">
 
-              <div class="card" style="width: 20rem; height: 20rem;">
+              <div class="card">
                 <div class="card-body">
                   <input type="checkbox">
                   <div class="items text-center ">
@@ -148,7 +148,7 @@
         </div>
         <div class="col">
 
-              <div class="card" style="width: 20rem; height: 20rem;">
+              <div class="card">
                 <div class="card-body">
                   <input type="checkbox">
                   <div class="items text-center ">
@@ -162,7 +162,91 @@
         </div>
         <div class="col">
 
-              <div class="card" style="width: 20rem; height: 20rem;">
+              <div class="card">
+                <div class="card-body">
+                  <input type="checkbox">
+                  <div class="items text-center ">
+                  <h5 class="card-title">Item</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+
+                </div>
+              </div>
+               
+        </div>
+        <div class="col">
+
+              <div class="card">
+                <div class="card-body">
+                  <input type="checkbox">
+                  <div class="items text-center ">
+                  <h5 class="card-title">Item</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+
+                </div>
+              </div>
+               
+        </div>
+        <div class="col">
+
+              <div class="card">
+                <div class="card-body">
+                  <input type="checkbox">
+                  <div class="items text-center ">
+                  <h5 class="card-title">Item</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+
+                </div>
+              </div>
+               
+        </div>
+        <div class="col">
+
+              <div class="card">
+                <div class="card-body">
+                  <input type="checkbox">
+                  <div class="items text-center ">
+                  <h5 class="card-title">Item</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+
+                </div>
+              </div>
+               
+        </div>
+        <div class="col">
+
+              <div class="card">
+                <div class="card-body">
+                  <input type="checkbox">
+                  <div class="items text-center ">
+                  <h5 class="card-title">Item</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+
+                </div>
+              </div>
+               
+        </div>
+        <div class="col">
+
+              <div class="card">
+                <div class="card-body">
+                  <input type="checkbox">
+                  <div class="items text-center ">
+                  <h5 class="card-title">Item</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+
+                </div>
+              </div>
+               
+        </div>
+        <div class="col">
+
+              <div class="card">
                 <div class="card-body">
                   <input type="checkbox">
                   <div class="items text-center ">
