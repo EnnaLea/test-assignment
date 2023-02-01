@@ -87,3 +87,7 @@ section {
     height: 20rem;
     margin-left: 4rem;
 }
+
+.footer-link {
+    font-size: 20px;
+}
