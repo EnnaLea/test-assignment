@@ -13,9 +13,11 @@
 
     
 
-    
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+    
 
     <!-- Favicons -->
 <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -26,7 +28,9 @@
 <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
 <meta name="theme-color" content="#712cf9">
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./css/style.css">
+
+
    
 </head>
 
@@ -87,7 +91,7 @@
     </div>
   </section>
 
-  <div class="album py-5 bg-light">
+  <div class="main album py-5 bg-light">
     <div class="container-fluid">
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 d-flex">
@@ -285,9 +289,10 @@
 </footer>
 
 
+<script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-<script src="script.js"></script>
+
 
 
 

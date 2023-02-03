@@ -26,7 +26,7 @@
 <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
 <meta name="theme-color" content="#712cf9">
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./css/style.css">
    
 </head>
 
@@ -83,7 +83,7 @@
       <div class="header col-lg">
         <span class="product col"><h1 class=" fw-light">Product Add</h1></span>
         <span class="product-buttons col"><a href="add_product.php"  class=" btn btn-primary my-2">SAVE</a>
-        <a href="#" id="delete-product-btn" class="btn btn-secondary my-2">DELETE</a></span>
+        <a href="#" id="delete-product-btn" class="btn btn-secondary my-2">CANCEL</a></span>
       </div>
 
       </div>
@@ -91,10 +91,102 @@
   </section>
 
   <div class="album py-5 bg-light">
+
+  <form class="form-control" method="post" enctype="multipart/form-data" id="product_form">
+  
+  <div class="form-group mb-3" style="width: 30rem;">
+  <label for="sku">SKU</label>
+  <input class="form-control" type="text" id="#sku" placeholder="" >
+  </div>
+
+  <div class="form-group mb-3" style="width: 30rem;" >
+  <label for="name">Name</label>
+  <input class="form-control" type="text" id="#name" placeholder="" >
+  </div>
+
+  <div class="form-group mb-3" style="width: 30rem;">
+  <label for="price">Price($)</label>
+  <input class="form-control" type="text" id="#price" placeholder="" >
+  </div>
+
+  <div class="form-group mb-3">
+  <label for="type-switcher">Type Switcher</label>
+  <select name="type-switcher" id="productType">
+  <option value="Type Switcher">Select type:</option>
+  <option id="DVD" value="DVD">DVD</option>
+  <option id="Book" value="Book">Book</option>
+  <option id="Furniture" value="Forniture">Furniture</option>
+  </select>
+  </div>
+
+
+  <form class="form-control" method="post" enctype="multipart/form-data" id="product_form">
+  
+  <!-- for dvd -->
+  <div class="container">
+    <div class="form-group mb-3 DVD" style="width: 30rem;">
+  <label for="size">Size MB</label>
+  <input id="#size" class="form-control" type="text" id="#size" placeholder="" >
+  <div id="passwordHelpBlock" class="form-text">
+  “Please, provide size in MB.”
+</div>
+  </div>
+  </div>
+
+
+<!-- for furniture -->
+<div class="container">
+  <div class="form-group mb-3" style="width: 30rem;" >
+  <label for="height">Height (CM)</label>
+  <input class="form-control" type="text" id="#name" placeholder="" >
+  </div>
+
+  <div class="form-group mb-3" style="width: 30rem;">
+  <label for="width">Width (CM)</label>
+  <input class="form-control" type="text" id="#price" placeholder="" >
+  </div>
+
+  <div class="form-group mb-3" style="width: 30rem;">
+  <label for="length">Length (CM)</label>
+  <input class="form-control" type="text" id="#price" placeholder="" >
+</div>
+
+  <div id="passwordHelpBlock" class="form-text">
+“Please, provide dimensions in CM.”
+</div>
+
+  </div>
+
+<!-- for book -->
+
+<div class="container">
+  <div class="form-group mb-3" style="width: 30rem;">
+  <label for="weight">Weight (KG)</label>
+  <input class="form-control" type="text" id="#price" placeholder="" >
+  <div id="passwordHelpBlock" class="form-text">
+ “Please, provide weight in KG.” 
+</div>
+  </div>
+
+</div>
+
+
+
+
+
+
+  </form>
+
+  </form>
+
+  
+  
     
   </div>
 
 </main>
+
+
 
 <footer class="text-muted py-5">
   <div class="container">
