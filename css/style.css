@@ -1,6 +1,8 @@
 body {
     background-color: #301E67;
 
+
+
 }
 
 .bd-placeholder-img {
@@ -98,6 +100,28 @@ section {
     margin-left: 2rem;
 
 }
+
+
+/* .formContainer {
+    display: none;
+    transition: all 0.5s;
+} */
+
+.disabled {
+    opacity: 1;
+    visibility: visible;
+}
+
+.display {
+    opacity: 1;
+    visibility: visible;
+}
+
+.select-option {
+    display: none;
+    transition: all 0.5s;
+}
+
 
 
 .footer-link {

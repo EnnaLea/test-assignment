@@ -7,27 +7,16 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.108.0">
+
+    
     <title>Product List</title>
-
-    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/"> -->
-
-    
-
-    
+   
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-    <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
-<meta name="theme-color" content="#712cf9">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <link rel="stylesheet" href="./css/style.css">
-   
+
 </head>
 
   
@@ -92,7 +81,7 @@
 
   <div class="album py-5 bg-light">
 
-  <form class="form-control" method="post" enctype="multipart/form-data" id="product_form">
+  <form class="form-control" method="post" enctype="multipart/form-data" id="product_form" >
   
   <div class="form-group mb-3" style="width: 30rem;">
   <label for="sku">SKU</label>
@@ -109,21 +98,24 @@
   <input class="form-control" type="text" id="#price" placeholder="" >
   </div>
 
+<!-- SELECT OPTION  FORM-->
   <div class="form-group mb-3">
   <label for="type-switcher">Type Switcher</label>
   <select name="type-switcher" id="productType">
   <option value="Type Switcher">Select type:</option>
-  <option id="DVD" value="DVD">DVD</option>
-  <option id="Book" value="Book">Book</option>
-  <option id="Furniture" value="Forniture">Furniture</option>
+  <option class="select-dvd" id="DVD" value="DVD">DVD</option>
+  <option class="select-book" id="Book" value="Book">Book</option>
+  <option class="select-furniture" id="Furniture" value="Forniture">Furniture</option>
   </select>
   </div>
 
 
-  <form class="form-control" method="post" enctype="multipart/form-data" id="product_form">
+<!-- INDIVIDUAL CHOICE FORM -->
+<div class="formContainer" >
+  <form class="form-control " method="post" enctype="multipart/form-data" id="product_form">
   
   <!-- for dvd -->
-  <div class="container">
+  <div class="container select-option" id="dvd-form " >
     <div class="form-group mb-3 DVD" style="width: 30rem;">
   <label for="size">Size MB</label>
   <input id="#size" class="form-control" type="text" id="#size" placeholder="" >
@@ -135,20 +127,20 @@
 
 
 <!-- for furniture -->
-<div class="container">
+<div class="container furniture-form select-option">
   <div class="form-group mb-3" style="width: 30rem;" >
   <label for="height">Height (CM)</label>
-  <input class="form-control" type="text" id="#name" placeholder="" >
+  <input class="form-control" type="text" id="#height" placeholder="" >
   </div>
 
   <div class="form-group mb-3" style="width: 30rem;">
   <label for="width">Width (CM)</label>
-  <input class="form-control" type="text" id="#price" placeholder="" >
+  <input class="form-control" type="text" id="#width" placeholder="" >
   </div>
 
   <div class="form-group mb-3" style="width: 30rem;">
   <label for="length">Length (CM)</label>
-  <input class="form-control" type="text" id="#price" placeholder="" >
+  <input class="form-control" type="text" id="#length" placeholder="" >
 </div>
 
   <div id="passwordHelpBlock" class="form-text">
@@ -159,10 +151,10 @@
 
 <!-- for book -->
 
-<div class="container">
+<div class="container book-form select-option">
   <div class="form-group mb-3" style="width: 30rem;">
   <label for="weight">Weight (KG)</label>
-  <input class="form-control" type="text" id="#price" placeholder="" >
+  <input class="form-control" type="text" id="#weight" placeholder="" >
   <div id="passwordHelpBlock" class="form-text">
  “Please, provide weight in KG.” 
 </div>
@@ -171,13 +163,12 @@
 </div>
 
 
-
-
-
-
   </form>
 
-  </form>
+</div>
+
+
+</form>
 
   
   
@@ -199,12 +190,15 @@
 </footer>
 
 
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-<script src="script.js"></script>
+<script src="./javascript/script.js"></script>
 
 
 
-      
+     
   </body>
 </html>
