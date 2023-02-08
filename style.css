@@ -1,5 +1,6 @@
 body {
     background-color: #301E67;
+    /* background-color: black; */
 
 
 
@@ -117,10 +118,26 @@ section {
     visibility: visible;
 }
 
-.select-option {
+.select-option-dvd {
     display: none;
     transition: all 0.5s;
 }
+
+.select-option-furniture {
+    display: none;
+    transition: all 0.5s;
+}
+
+.select-option-book {
+    display: none;
+    transition: all 0.5s;
+}
+
+/* #dvd-form {
+    display: none;
+    transition: all 0.5s;
+
+} */
 
 
 

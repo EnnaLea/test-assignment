@@ -1,26 +1,5 @@
+<?php include("./includes/header.php") ?>
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.108.0">
-
-    
-    <title>Product List</title>
-   
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<link rel="stylesheet" href="./css/style.css">
-
-</head>
-
-  
-<body>
     
 <header>
   <div class="collapse bg-dark" id="navbarHeader">
@@ -105,7 +84,7 @@
   <option value="Type Switcher">Select type:</option>
   <option class="select-dvd" id="DVD" value="DVD">DVD</option>
   <option class="select-book" id="Book" value="Book">Book</option>
-  <option class="select-furniture" id="Furniture" value="Forniture">Furniture</option>
+  <option class="select-furniture" id="Furniture" value="Furniture">Furniture</option>
   </select>
   </div>
 
@@ -115,10 +94,10 @@
   <form class="form-control " method="post" enctype="multipart/form-data" id="product_form">
   
   <!-- for dvd -->
-  <div class="container select-option" id="dvd-form " >
+  <div class="container select-option-dvd" id="dvd-form " >
     <div class="form-group mb-3 DVD" style="width: 30rem;">
   <label for="size">Size MB</label>
-  <input id="#size" class="form-control" type="text" id="#size" placeholder="" >
+  <input id="#size" class="form-control" type="text" id="#size" placeholder="" required>
   <div id="passwordHelpBlock" class="form-text">
   “Please, provide size in MB.”
 </div>
@@ -127,20 +106,20 @@
 
 
 <!-- for furniture -->
-<div class="container furniture-form select-option">
+<div class="container furniture-form select-option-furniture">
   <div class="form-group mb-3" style="width: 30rem;" >
   <label for="height">Height (CM)</label>
-  <input class="form-control" type="text" id="#height" placeholder="" >
+  <input class="form-control" type="text" id="#height" placeholder="" required>
   </div>
 
   <div class="form-group mb-3" style="width: 30rem;">
   <label for="width">Width (CM)</label>
-  <input class="form-control" type="text" id="#width" placeholder="" >
+  <input class="form-control" type="text" id="#width" placeholder="" required>
   </div>
 
   <div class="form-group mb-3" style="width: 30rem;">
   <label for="length">Length (CM)</label>
-  <input class="form-control" type="text" id="#length" placeholder="" >
+  <input class="form-control" type="text" id="#length" placeholder="" required>
 </div>
 
   <div id="passwordHelpBlock" class="form-text">
@@ -151,10 +130,10 @@
 
 <!-- for book -->
 
-<div class="container book-form select-option">
+<div class="container book-form select-option-book">
   <div class="form-group mb-3" style="width: 30rem;">
   <label for="weight">Weight (KG)</label>
-  <input class="form-control" type="text" id="#weight" placeholder="" >
+  <input class="form-control" type="text" id="#weight" placeholder="" required >
   <div id="passwordHelpBlock" class="form-text">
  “Please, provide weight in KG.” 
 </div>
@@ -170,35 +149,6 @@
 
 </form>
 
-  
-  
-    
   </div>
 
-</main>
-
-
-
-<footer class="text-muted py-5">
-  <div class="container">
-    <p class="float-end mb-1">
-    <strong>
-    <a class="footer-link" href="#">Back to top</a>
-    </strong>
-    </p>
-  </div>
-</footer>
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
-<script src="./javascript/script.js"></script>
-
-
-
-     
-  </body>
-</html>
+<?php include("./includes/footer.php") ?>
