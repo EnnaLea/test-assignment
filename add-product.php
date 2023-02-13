@@ -1,6 +1,7 @@
 <?php include("./includes/header.php") ?>
 
-    
+
+
 <header>
   <div class="collapse bg-dark" id="navbarHeader">
     <div class="container">
@@ -48,11 +49,13 @@
   <section class="py-5 text-center container ">
     <div class="heading row py-lg-5 ">
       <div class="row ">
-      <div class="header col-lg">
-        <span class="product col"><h1 class=" fw-light">Product Add</h1></span>
-        <span class="product-buttons col"><a href="add_product.php"  class=" btn btn-primary my-2">SAVE</a>
-        <a href="#" id="delete-product-btn" class="btn btn-secondary my-2">CANCEL</a></span>
-      </div>
+        <div class="header col-lg">
+          <span class="product col">
+            <h1 class=" fw-light">Product Add</h1>
+          </span>
+          <span class="product-buttons col"><a href="add_product.php" class=" btn btn-primary my-2">SAVE</a>
+            <a href="#" id="delete-product-btn" class="btn btn-secondary my-2">CANCEL</a></span>
+        </div>
 
       </div>
     </div>
@@ -60,95 +63,95 @@
 
   <div class="album py-5 bg-light">
 
-  <form class="form-control" method="post" enctype="multipart/form-data" id="product_form" >
-  
-  <div class="form-group mb-3" style="width: 30rem;">
-  <label for="sku">SKU</label>
-  <input class="form-control" type="text" id="#sku" placeholder="" >
+    <form class="form-control" method="post" enctype="multipart/form-data" id="product_form">
+
+      <div class="form-group mb-3" style="width: 30rem;">
+        <label for="sku">SKU</label>
+        <input class="form-control" type="text" id="#sku" placeholder="">
+      </div>
+
+      <div class="form-group mb-3" style="width: 30rem;">
+        <label for="name">Name</label>
+        <input class="form-control" type="text" id="#name" placeholder="">
+      </div>
+
+      <div class="form-group mb-3" style="width: 30rem;">
+        <label for="price">Price($)</label>
+        <input class="form-control" type="text" id="#price" placeholder="">
+      </div>
+
+      <!-- SELECT OPTION  FORM-->
+      <div class="form-group mb-3">
+        <label for="type-switcher">Type Switcher</label>
+        <select name="type-switcher" id="productType">
+          <option value="Type Switcher">Select type:</option>
+          <option class="select-dvd" id="DVD" value="DVD">DVD</option>
+          <option class="select-book" id="Book" value="Book">Book</option>
+          <option class="select-furniture" id="Furniture" value="Furniture">Furniture</option>
+        </select>
+      </div>
+
+
+      <!-- INDIVIDUAL CHOICE FORM -->
+      <div class="formContainer">
+        <form class="form-control " method="post" enctype="multipart/form-data" id="product_form">
+
+          <!-- for dvd -->
+          <div class="container select-option-dvd" id="dvd-form ">
+            <div class="form-group mb-3 DVD" style="width: 30rem;">
+              <label for="size">Size MB</label>
+              <input id="#size" class="form-control" type="text" id="#size" placeholder="" required>
+              <div id="passwordHelpBlock" class="form-text">
+                “Please, provide size in MB.”
+              </div>
+            </div>
+          </div>
+
+
+          <!-- for furniture -->
+          <div class="container furniture-form select-option-furniture">
+            <div class="form-group mb-3" style="width: 30rem;">
+              <label for="height">Height (CM)</label>
+              <input class="form-control" type="text" id="#height" placeholder="" required>
+            </div>
+
+            <div class="form-group mb-3" style="width: 30rem;">
+              <label for="width">Width (CM)</label>
+              <input class="form-control" type="text" id="#width" placeholder="" required>
+            </div>
+
+            <div class="form-group mb-3" style="width: 30rem;">
+              <label for="length">Length (CM)</label>
+              <input class="form-control" type="text" id="#length" placeholder="" required>
+            </div>
+
+            <div id="passwordHelpBlock" class="form-text">
+              “Please, provide dimensions in CM.”
+            </div>
+
+          </div>
+
+          <!-- for book -->
+
+          <div class="container book-form select-option-book">
+            <div class="form-group mb-3" style="width: 30rem;">
+              <label for="weight">Weight (KG)</label>
+              <input class="form-control" type="text" id="#weight" placeholder="" required>
+              <div id="passwordHelpBlock" class="form-text">
+                “Please, provide weight in KG.”
+              </div>
+            </div>
+
+          </div>
+
+
+        </form>
+
+      </div>
+
+
+    </form>
+
   </div>
 
-  <div class="form-group mb-3" style="width: 30rem;" >
-  <label for="name">Name</label>
-  <input class="form-control" type="text" id="#name" placeholder="" >
-  </div>
-
-  <div class="form-group mb-3" style="width: 30rem;">
-  <label for="price">Price($)</label>
-  <input class="form-control" type="text" id="#price" placeholder="" >
-  </div>
-
-<!-- SELECT OPTION  FORM-->
-  <div class="form-group mb-3">
-  <label for="type-switcher">Type Switcher</label>
-  <select name="type-switcher" id="productType">
-  <option value="Type Switcher">Select type:</option>
-  <option class="select-dvd" id="DVD" value="DVD">DVD</option>
-  <option class="select-book" id="Book" value="Book">Book</option>
-  <option class="select-furniture" id="Furniture" value="Furniture">Furniture</option>
-  </select>
-  </div>
-
-
-<!-- INDIVIDUAL CHOICE FORM -->
-<div class="formContainer" >
-  <form class="form-control " method="post" enctype="multipart/form-data" id="product_form">
-  
-  <!-- for dvd -->
-  <div class="container select-option-dvd" id="dvd-form " >
-    <div class="form-group mb-3 DVD" style="width: 30rem;">
-  <label for="size">Size MB</label>
-  <input id="#size" class="form-control" type="text" id="#size" placeholder="" required>
-  <div id="passwordHelpBlock" class="form-text">
-  “Please, provide size in MB.”
-</div>
-  </div>
-  </div>
-
-
-<!-- for furniture -->
-<div class="container furniture-form select-option-furniture">
-  <div class="form-group mb-3" style="width: 30rem;" >
-  <label for="height">Height (CM)</label>
-  <input class="form-control" type="text" id="#height" placeholder="" required>
-  </div>
-
-  <div class="form-group mb-3" style="width: 30rem;">
-  <label for="width">Width (CM)</label>
-  <input class="form-control" type="text" id="#width" placeholder="" required>
-  </div>
-
-  <div class="form-group mb-3" style="width: 30rem;">
-  <label for="length">Length (CM)</label>
-  <input class="form-control" type="text" id="#length" placeholder="" required>
-</div>
-
-  <div id="passwordHelpBlock" class="form-text">
-“Please, provide dimensions in CM.”
-</div>
-
-  </div>
-
-<!-- for book -->
-
-<div class="container book-form select-option-book">
-  <div class="form-group mb-3" style="width: 30rem;">
-  <label for="weight">Weight (KG)</label>
-  <input class="form-control" type="text" id="#weight" placeholder="" required >
-  <div id="passwordHelpBlock" class="form-text">
- “Please, provide weight in KG.” 
-</div>
-  </div>
-
-</div>
-
-
-  </form>
-
-</div>
-
-
-</form>
-
-  </div>
-
-<?php include("./includes/footer.php") ?>
+  <?php include("./includes/footer.php") ?>

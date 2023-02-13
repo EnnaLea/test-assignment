@@ -1,6 +1,6 @@
 <?php include("./includes/header.php") ?>
 
-    
+
 <header>
   <div class="collapse bg-dark" id="navbarHeader">
     <div class="container">
@@ -45,11 +45,13 @@
   <section class="py-5 text-center container ">
     <div class="heading row py-lg-5 ">
       <div class="row ">
-      <div class="header col-lg">
-        <span class="product col"><h1 class=" fw-light">Product List</h1></span>
-        <span class="product-buttons col"><a href="add-product.php"  class=" btn btn-primary my-2">ADD</a>
-        <a href="#" id="delete-product-btn" class="btn btn-secondary my-2">MASS DELETE</a></span>
-      </div>
+        <div class="header col-lg">
+          <span class="product col">
+            <h1 class=" fw-light">Product List</h1>
+          </span>
+          <span class="product-buttons col"><a href="add-product.php" class=" btn btn-primary my-2">ADD</a>
+            <a href="#" id="delete-product-btn" class="btn btn-secondary my-2">MASS DELETE</a></span>
+        </div>
 
       </div>
     </div>
@@ -62,182 +64,181 @@
 
         <div class="col">
 
-              <div class="card">
-                <div class="card-body">
-                  <input type="checkbox">
-                  <div class="items text-center ">
-                  <h5 class="card-title">Item</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-
-                </div>
+          <div class="card">
+            <div class="card-body">
+              <input type="checkbox">
+              <div class="items text-center ">
+                <h5 class="card-title">Item</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-               
+
+            </div>
+          </div>
+
         </div>
         <div class="col">
 
-              <div class="card">
-                <div class="card-body">
-                  <input type="checkbox">
-                  <div class="items text-center ">
-                  <h5 class="card-title">Item</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-
-                </div>
+          <div class="card">
+            <div class="card-body">
+              <input type="checkbox">
+              <div class="items text-center ">
+                <h5 class="card-title">Item</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-               
+
+            </div>
+          </div>
+
         </div>
         <div class="col">
 
-              <div class="card">
-                <div class="card-body">
-                  <input type="checkbox">
-                  <div class="items text-center ">
-                  <h5 class="card-title">Item</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-
-                </div>
+          <div class="card">
+            <div class="card-body">
+              <input type="checkbox">
+              <div class="items text-center ">
+                <h5 class="card-title">Item</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-               
+
+            </div>
+          </div>
+
         </div>
         <div class="col">
 
-              <div class="card">
-                <div class="card-body">
-                  <input type="checkbox">
-                  <div class="items text-center ">
-                  <h5 class="card-title">Item</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-
-                </div>
+          <div class="card">
+            <div class="card-body">
+              <input type="checkbox">
+              <div class="items text-center ">
+                <h5 class="card-title">Item</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-               
+
+            </div>
+          </div>
+
         </div>
         <div class="col">
 
-              <div class="card">
-                <div class="card-body">
-                  <input type="checkbox">
-                  <div class="items text-center ">
-                  <h5 class="card-title">Item</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-
-                </div>
+          <div class="card">
+            <div class="card-body">
+              <input type="checkbox">
+              <div class="items text-center ">
+                <h5 class="card-title">Item</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-               
+
+            </div>
+          </div>
+
         </div>
         <div class="col">
 
-              <div class="card">
-                <div class="card-body">
-                  <input type="checkbox">
-                  <div class="items text-center ">
-                  <h5 class="card-title">Item</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-
-                </div>
+          <div class="card">
+            <div class="card-body">
+              <input type="checkbox">
+              <div class="items text-center ">
+                <h5 class="card-title">Item</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-               
+
+            </div>
+          </div>
+
         </div>
         <div class="col">
 
-              <div class="card">
-                <div class="card-body">
-                  <input type="checkbox">
-                  <div class="items text-center ">
-                  <h5 class="card-title">Item</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-
-                </div>
+          <div class="card">
+            <div class="card-body">
+              <input type="checkbox">
+              <div class="items text-center ">
+                <h5 class="card-title">Item</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-               
+
+            </div>
+          </div>
+
         </div>
         <div class="col">
 
-              <div class="card">
-                <div class="card-body">
-                  <input type="checkbox">
-                  <div class="items text-center ">
-                  <h5 class="card-title">Item</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-
-                </div>
+          <div class="card">
+            <div class="card-body">
+              <input type="checkbox">
+              <div class="items text-center ">
+                <h5 class="card-title">Item</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-               
+
+            </div>
+          </div>
+
         </div>
         <div class="col">
 
-              <div class="card">
-                <div class="card-body">
-                  <input type="checkbox">
-                  <div class="items text-center ">
-                  <h5 class="card-title">Item</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-
-                </div>
+          <div class="card">
+            <div class="card-body">
+              <input type="checkbox">
+              <div class="items text-center ">
+                <h5 class="card-title">Item</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-               
+
+            </div>
+          </div>
+
         </div>
         <div class="col">
 
-              <div class="card">
-                <div class="card-body">
-                  <input type="checkbox">
-                  <div class="items text-center ">
-                  <h5 class="card-title">Item</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-
-                </div>
+          <div class="card">
+            <div class="card-body">
+              <input type="checkbox">
+              <div class="items text-center ">
+                <h5 class="card-title">Item</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-               
+
+            </div>
+          </div>
+
         </div>
         <div class="col">
 
-              <div class="card">
-                <div class="card-body">
-                  <input type="checkbox">
-                  <div class="items text-center ">
-                  <h5 class="card-title">Item</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-
-                </div>
+          <div class="card">
+            <div class="card-body">
+              <input type="checkbox">
+              <div class="items text-center ">
+                <h5 class="card-title">Item</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-               
+
+            </div>
+          </div>
+
         </div>
         <div class="col">
 
-              <div class="card">
-                <div class="card-body">
-                  <input type="checkbox">
-                  <div class="items text-center ">
-                  <h5 class="card-title">Item</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-
-                </div>
+          <div class="card">
+            <div class="card-body">
+              <input type="checkbox">
+              <div class="items text-center ">
+                <h5 class="card-title">Item</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-               
-        </div>
-               
-        </div>
 
+            </div>
+          </div>
 
+        </div>
 
       </div>
 
 
+
     </div>
+
+
+  </div>
   </div>
 
-<?php include("./includes/footer.php") ?>
-
+  <?php include("./includes/footer.php") ?>
