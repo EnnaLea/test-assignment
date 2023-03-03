@@ -1,5 +1,4 @@
-<?php $product = new Product(); ?>
-
+<?php include("init.php"); ?>
 
 <!doctype html>
 <html lang="en">

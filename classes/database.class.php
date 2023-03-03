@@ -1,10 +1,6 @@
 <?php
 
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', 'root');
-define('DB_NAME', 'products');
-define('DB_PORT', '8889');
+include("init.php");
 
 class Database
 {
@@ -43,6 +39,20 @@ class Database
 
         return $result;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // method to confirm query
     private function confirm_query($result)

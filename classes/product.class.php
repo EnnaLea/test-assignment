@@ -13,6 +13,6 @@ class Product extends Database
     {
         $this->sku = $sku;
         $this->name = $name;
-        $this->price = $price bn;
+        $this->price = $price;
     }
 }
